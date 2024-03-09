@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_academiadoflutter_foundations_challenge/pages/feed_card.dart';
 import 'package:flutter_academiadoflutter_foundations_challenge/pages/header.dart';
 import 'package:flutter_academiadoflutter_foundations_challenge/pages/story.dart';
@@ -20,6 +18,13 @@ class HomePage extends StatelessWidget {
                 const EdgeInsets.only(top: 0, right: 5, bottom: 5, left: 5),
             child: Row(
               children: [
+                Story(
+                  data: StoryData(
+                    name: 'Your story',
+                    imageUrl: 'assets/images/me.jpeg',
+                    state: StoryState.updated,
+                  ),
+                ),
                 Story(
                   data: StoryData(
                     name: 'zaralarsson',
@@ -136,6 +141,9 @@ class HomePage extends StatelessWidget {
                   width: 24,
                   height: 24,
                 ),
+                const CircleAvatar(
+                  backgroundImage: AssetImage('assets/images/me.jpeg'),
+                )
               ],
             ),
           ),
