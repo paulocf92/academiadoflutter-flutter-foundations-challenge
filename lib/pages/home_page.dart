@@ -107,6 +107,39 @@ class HomePage extends StatelessWidget {
             ),
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10),
+          child: Container(
+            height: 30,
+            color: Colors.black,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Image.asset(
+                  'assets/images/home.png',
+                  width: 24,
+                  height: 24,
+                ),
+                Image.asset(
+                  'assets/images/search.png',
+                  width: 24,
+                  height: 24,
+                ),
+                Image.asset(
+                  'assets/images/reels.png',
+                  width: 24,
+                  height: 24,
+                ),
+                Image.asset(
+                  'assets/images/explore.png',
+                  width: 24,
+                  height: 24,
+                ),
+              ],
+            ),
+          ),
+        ),
       ],
     );
   }
