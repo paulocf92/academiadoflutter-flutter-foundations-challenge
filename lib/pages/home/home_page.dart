@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_academiadoflutter_foundations_challenge/pages/feed_card.dart';
-import 'package:flutter_academiadoflutter_foundations_challenge/pages/header.dart';
-import 'package:flutter_academiadoflutter_foundations_challenge/pages/story.dart';
+import 'package:flutter_academiadoflutter_foundations_challenge/pages/home/widgets/feed_card.dart';
+import 'package:flutter_academiadoflutter_foundations_challenge/pages/home/widgets/header.dart';
+import 'package:flutter_academiadoflutter_foundations_challenge/pages/home/widgets/story.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_academiadoflutter_foundations_challenge/pages/home_page.dart';
+import 'package:flutter_academiadoflutter_foundations_challenge/pages/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
